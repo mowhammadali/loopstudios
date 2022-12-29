@@ -40,7 +40,7 @@ const Hero = () => {
                 {/* mobile menu */}
                 <div ref={ menu }
                 className='hidden flex-col absolute top-0 bottom-0 
-                left-0 w-full min-h-screen bg-black text-white
+                left-0 z-30 w-full min-h-screen bg-black text-white
                 pt-40 pl-12 text-lg uppercase space-y-5 md:hidden'>
                     <a className='hover:text-pink-500' href='#'>About</a>
                     <a className='hover:text-pink-500' href='#'>Careers</a>
